@@ -1,0 +1,10 @@
+h2{
+    font-size: 14px;
+}
+
+span{
+    font-size: 30px;
+    background: darkgray;
+    font-weight: bold;
+    margin: 5px;
+}
