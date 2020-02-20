@@ -1,0 +1,19 @@
+ul{
+    width: 97%;
+
+    font-size:1.5rem;
+
+    list-style-type: none;
+}
+
+li:nth-child(odd){
+    background: #A5CCDA;
+    padding: 8px;
+    
+}
+
+li:nth-child(even){
+    background: #ADD8E6;
+    padding: 8px;
+
+}
