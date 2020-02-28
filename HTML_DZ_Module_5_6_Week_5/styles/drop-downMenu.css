@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+html,
+body,
+#menu{
+    height: 100%;
+    
+}
+h1{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+#menu {
+    display: block;
+    width: 130px;
+    box-sizing: border-box;
+    background: #8A8A8A;
+    position: fixed;
+    overflow: hidden;
+    transition: width 1s ease-out 0.5s;
+  margin-right: 5px;
+}
+span{
+    position: relative;
+    display: table-cell;
+    text-overflow: clip;
+    vertical-align: center;
+    width: 100%;
+   
+    transition: left 1s ease-out 0.5s;
+}
+
+#menu:hover {
+width: 280px;
+left: 0px; 
+}
+
+li{
+    overflow-y: hidden;
+   
+    max-height: 100px;
+  width: 100%;
+}
+
+li:hover{
+background: #696969;
+
+}
+ul{
+    display: table;
+    width: 100%;
+}
+.Content{
+    
+  height: 100%;
+  width: 100%;
+  
+  padding-left: 14%;
+  width: 80%;
+  text-align: justify;
+  font-size: 25px;
+  background-size: cover;
+}
