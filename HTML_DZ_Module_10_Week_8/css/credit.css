@@ -1,0 +1,98 @@
+.main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+}
+
+.card{
+    
+   
+    height: 410px;
+    width: 660px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+   border-color: darkcyan;
+    background-color: #9FCDCD;
+}
+
+.head{
+    height: 40px;
+    width: 480px;
+    margin-top: 30px;
+    margin-left: -20px;
+    color: white;
+    line-height: 40px;
+    padding-left: 50px;
+    background-color: #DB6423;
+}
+form{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.cardnumber{
+    margin-top: -30px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-width: 1px;
+   border-color: black;
+   width: 50px;
+   font-size: 18px;
+   line-height: 35px;
+    background-color: #A9D2D2;
+    
+}
+.namesurname{
+    border-top: none;
+   border-left: none;
+   border-right: none;
+   border-width: 1px;
+   border-color: black;
+   font-size: 14px;
+   line-height: 35px;
+   width: 205px;
+   padding-left: 10px;
+   background-color: #A9D2D2;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#one{
+    margin-left: 20px;
+}
+span{
+    margin-left: 187px;
+}
+.dateex{
+    border-top: none;
+   border-left: none;
+   border-right: none;
+   border-width: 1px;
+   border-color: black;
+   font-size: 14px;
+   line-height: 35px;
+   width: 100px;
+   padding-left: 10px;
+   margin-left: 20px;
+   background-color: #A9D2D2;
+}
+.picture{
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    left: 360px;
+    top: -245px;
+    overflow: hidden;
+}
+
+.pic{
+    position: relative;
+right: -70px;
+}
+
